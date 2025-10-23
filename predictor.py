@@ -9,6 +9,8 @@ from model_definitions import (
     DummyDict,
     AttrDict
 )
+import warnings
+warnings.filterwarnings("ignore")
 
 def get_model_args():
     return AttrDict({
